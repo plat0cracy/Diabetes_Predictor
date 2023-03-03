@@ -1,2 +1,2 @@
-# DSCI100_versio_control_exercise
+# DSCI100_group_project
 Author: Shanmei Liu
