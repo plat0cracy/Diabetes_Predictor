@@ -1,1 +1,13 @@
-why can not pull?
+library(tidyverse)
+diabetes_data <- read_csv("diabetes_binary_5050split_health_indicators_BRFSS2015.csv")
+
+diabetes_data <- diabetes_data |>
+                mutate(Diabetes_binary = as_factor(Diabetes_binary))|>
+                select(Diabetes_binary, BMI, Age) 
+
+set.seed(1)
+diabetes_split <- initial_split(diabetes, prop =0.75, strata =Class)
+diabetes_train <-training(diabetes_split)
+diabetes_test <-testing(diabetes_split)
+
+
