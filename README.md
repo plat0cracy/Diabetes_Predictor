@@ -2,7 +2,7 @@
 
 ## Aditya Bakshi, Shanmei Liu, Jesse Luyan, Kshitij Doshi
 
-Predictive Model for Type-2 Diabetes in **R**. [Report available here]([https://github.com/plat0cracy/Inferential-Analysis-of-Vancouver-Crime/blob/main/Analyzing%20Crime%20in%20Vancouver.ipynb](https://github.com/plat0cracy/Diabetes_Predictor/blob/main/Final%20report.pdf)).
+Predictive Model for Type-2 Diabetes in **R**. [Report available here](https://github.com/plat0cracy/Diabetes_Predictor/blob/main/Final%20report.pdf).
 
 🧹 Data Preparation: Analyzed a dataset of health indicators from ~400,000 respondents, sourced from the CDC, containing critical variables such as BMI, smoking habits, physical activity, and other health factors. Data was cleaned and wrangled to ensure accuracy for predictive modeling.
 
